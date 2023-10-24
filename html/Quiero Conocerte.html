@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quiero Conocerte</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #F3E8D2;
+		}
+		header{
+			width: 960px;
+			height: 100px;
+			background-color:#826028;
+		}
+		header,nav,main,footer{
+			width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		header{
+			height: 100px;
+			border: 10px solid white;
+			text-align: center;
+			background-color:#3F2805;
+			font-size: 30px;
+		}
+		nav{
+			height: 60px;
+			background-color:#6F5A3A;
+			border-radius: 35px;
+		}
+		main nav{
+			width: 400px;
+			height: auto;
+			margin: 0auto;
+			text-align: center;
+		}
+		main{
+			height: auto;
+			background-color:#E4D1B4;
+		}
+		footer{
+			height: 40px;
+			background-color:#6F5A3A;
+		}
+		section{
+			width: 800px;
+			height: auto;
+			margin: 20px auto;
+			padding: 30px;
+			background-color:#AD9267;
+			border-radius: 35px;
+		}
+		h1{
+			color:white;
+		}
+		h2{
+			color:#2A1A00;
+			margin-bottom: 5px;
+		}
+		h3{
+			color:#553604;
+		}
+		h6{
+			color: antiquewhite;
+			text-align: center;
+			font-size: 16px;
+		}
+		p{
+			color: whitesmoke
+		}
+		section img{
+			width: 300px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:link{
+			color: #3A1500;
+			font-weight: bold;
+		}
+		a:visited{
+			color:#522400;
+			font-size: 24px;
+		}
+		a:active{
+			color:#C15D21;
+		}
+		a:hover{
+			color: #B36521;
+		}
+		.menu ul{
+			text-align: center;
+		}
+		.menu ul li{
+			list-style-type: none;
+			display: inline-block;
+			margin: 20px 5px;
+		}
+		.menu ul li a{
+			text-decoration: none;
+		}
+		.menu ul li a:link{
+			background-color:#D8C5A8;
+			color: #966D2D;
+			padding: 10px;
+			margin: 3px;
+			border-radius: 30px;
+		}
+		form{
+			background-color:#2B1F0B;
+			color: #ECDBBF;
+			border-radius: 20px;
+			width: 50%;;
+			height: auto;
+			margin: 20px auto;
+			margin-top: 20px;
+			padding: 20px;
+		}
+		label{
+			display: inline-block;
+			margin: 20px;
+			font-size: 18px;
+		}
+		input[type="text"]{
+			padding: 5px;
+			width: 80%;
+			color: #2B1F0B;
+			margin: 10px;
+			font-weight: bolder;
+		}
+		input[type="submit"]{
+			width: 25%;
+			color: #2B1F0B;
+			font-weight: bolder;
+			margin: 20px auto;
+			display: block;
+			height: 30px;
+		}
+		select{
+			padding: 5px;
+			width: 80%;
+			color: #2B1F0B;
+			margin: 10px;
+			font-weight: bolder;
+		}
+	</style>
+	</head>
+<body>
+	<header>
+		<h1>Alexa Juárez García</h1>
+	</header>
+	<nav class="menu">
+		<ul>
+			<li><a href="../index.html"><img src="../fotos/home_263115.png"></a></li>
+			<li><a href="MiPáginaWeb.html">Principal</a> </li>
+			<li><a href="Quién soy.html">¿Quién soy?</a></li>
+			<li><a href="Mi Familia.html">Mi Familia</a></li>
+			<li><a href="Mis Hobbies.html">Mis Hobbies</a></li>
+			<li><a href="Mi Música.html">Música Favorita</a></li>
+			<li><a href="Mis Amigos.html">Mis Amigos</a></li>
+			<li><a href="Quiero Conocerte.html">Preséntate</a></li>
+		</ul>
+	</nav>
+	<main>
+	<section>
+		<h2>¡Qué alegría conocerte!</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, distinctio voluptate facilis qui enim voluptatem eaque facere perferendis ad sequi dolor natus sunt itaque voluptas, dolores temporibus non reiciendis est fugiat obcaecati optio doloremque, quis quisquam. Tempore quod nisi perferendis quae, blanditiis excepturi quidem, veritatis necessitatibus. Reiciendis, aliquam perferendis sint.</p>
+		<form section="" method="get">
+			<label style="display: block; margin: 10px 0px;" for="fname">Nombre:</label>
+			<input type="text" id="fname" name="fname" value="">
+			<label style="display: block; margin: 10px 0px;" for="fpais">País:</label>
+			<select id="pais" name="pais">
+				<option value="mx">México</option>
+				<option value="us">Estados Unidos</option>
+				<option value="co">Colombia</option>
+				<option value="cl">Chile</option>
+				<option value="cn">China</option>
+				<option value="arg">Argentina</option>
+			</select>
+			<label style="display: block; margin: 10px 0px;" for="fgenero">Género:</label>
+			<input type="radio" id="masculino" name="genero" value="masculino">
+			<label for="masculino">Masculino</label>
+			<input type="radio" id="femenino" name="genero" value="femenino">
+			<label for="femenino">Femenino</label>
+			<input type="submit" value="Enviar">
+			
+			<label style="display: block; margin: 10px 0px; padding-top: 20px;" for="fmusic">¿Cuál es tu música preferida?</label>
+			<input type="checkbox" id="pop" name="music" value="pop">
+			<label for="pop">Pop</label>
+			<input type="checkbox" id="rock" name="music" value="rock">
+			<label for="rock">Rock</label>
+			<input type="checkbox" id="jazz" name="music" value="jazz">
+			<label for="jazz">Jazz</label>
+			
+		
+			<label for="favcolor">Selecciona tu color favorito:</label>
+			<input type="color" id="favcolor" name="favcolor">
+			<input type="submit" value="Enviar">
+		</form>
+		</section>
+	</main>
+	<footer> 
+	  <h6>Elaborado por Alexa Juárez García, 2023.</h6>
+</footer>
+</body>
+</html>
